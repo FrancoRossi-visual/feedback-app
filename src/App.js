@@ -6,9 +6,11 @@ import FeedbackData from './data/FeedbackData';
 function App() {
   const [feedback, setFeedback] = useState(FeedbackData);
 
+  // console.log('app feedback', feedback);
+
   return (
     <>
-      <Header text={'hello world'} />
+      <Header text={'Feedback UI'} />
       <div className="container">
         <FeedbackList feedback={feedback} />
       </div>
