@@ -135,11 +135,12 @@ input:focus {
 .close,
 .edit {
   position: absolute;
-  top: 10px;
+  top: 20px;
   right: 20px;
   cursor: pointer;
   background: none;
   border: none;
+  transform: scale(1.5);
 }
 
 .edit {
